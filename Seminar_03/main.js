@@ -3,12 +3,12 @@
 Результат сложения чисел 5 и 2 равен 7. 
 */
 // let number1 = Number.parseInt(prompt('Enter first number'));
-// alert(`The result of addition ${number1} and ${number2} is ${number1 + number2}`); //backticks
 // alert("The result of addition " + number1 + " and " + number2 + " is " + parseInt(number1 + number2));
 
 const number1 = Number.parseInt(prompt('Enter first number')); // значение переменной не поменяется
 const number2 = Number.parseInt(prompt('Enter second number'));
-alert("The result of addition " + number1 + " and " + number2 + " is " + (number1 + number2));
+alert(`The result of addition ${number1} and ${number2} is ${number1 + number2}`); //backticks
+// alert("The result of addition " + number1 + " and " + number2 + " is " + (number1 + number2));
 
 // Задача 3: Написать функцию, которая принимает имя пользователя при ее вызове и выводит сообщение с приветствием пользователя по имени. 
 // Проверить работоспособность функции.
