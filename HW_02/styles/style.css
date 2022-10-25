@@ -16,6 +16,7 @@
 
 html {
     font-size: 15px;
+    color: whitesmoke;
     /* px значит 'пиксели': базовый шрифт будет 10 пикселей в
     высоту */
     font-family: 'Marmelad', sans-serif;
@@ -34,7 +35,7 @@ h1 {
     color: green;
     margin: 0;
     padding: 10px 10px;
-    text-shadow: 1px 1px 1px rgb(3, 6, 0);
+    text-shadow: 1px 1px 1px rgb(20, 179, 211);
 }
 
 img {
@@ -48,3 +49,20 @@ iframe {
     width: 100%;
     height: 350px;
 }
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+  a:active {
+    text-decoration: underline;
+    color: whitesmoke;
+  }
