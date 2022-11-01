@@ -1,2 +1,3 @@
-const temp = Number.parseInt(prompt("Enter temperature in °C:"));
-alert(`The temperature: ${temp}°C or ${9/5*temp + 32}F`);
+const temp = Number.parseFloat(prompt("Enter temperature in °C:"));
+const fahr = 9 / 5 * temp + 32;
+alert(`The temperature: ${temp}°C or ${fahr}F`);
