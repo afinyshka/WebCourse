@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="contact.html" method="post">
+        <label for="username">Имя пользователя:</label>
+        <input name="userlogin" id="username" type="text" placeholder="Мария"><br>
+        <label for="password">Пароль:</label>
+        <input name="userpass" id="password" type="password" placeholder="Ваш пароль"><br>
+        <!-- можно так или через кнопку -->
+        <br>
+        <input type="submit" value="Войти">
+        <!-- <button>Сброс</button> -->
+    </form>
+    <br>
+    <form action="contact.html" method="post">
+        <fieldset>
+            <legend>Пример формы</legend>
+            <p>
+                <label for="userid">id пользователя:</label>
+                <!-- name это отправяется кючем для введенного значения, id связь inputa и label -->
+                <input type="text" name="textField" id="userid">
+                <br>
+                <button>Войти</button>
+            </p>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Опрос</legend>
+            <p>
+                Ваш любимый книжный магазин:<br>
+                <input type="radio" name="favoutiteShop" value="chitai_gorod" id=""> Читай город<br>
+                <input type="radio" name="favoutiteShop" value="labirinth" id=""> Лабиринт<br>
+                <input type="radio" name="favoutiteShop" value="bookinist" id=""> Букинист
+            </p>
+            <br>
+            <button>Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Опрос</legend>
+            <p>
+                Ваш любимый писатель:<br>
+                <input type="checkbox" name="favoutiteAuthor" value="pushkin" id=""> А.С. Пушкин<br>
+                <input type="checkbox" name="favoutiteAuthor" value="nosov" id=""> Н.Н. Носов<br>
+                <input type="checkbox" name="favoutiteAuthor" value="tolstoi" id=""> Л.Н. Тостой<br>
+                <input type="checkbox" name="favoutiteAuthor" value="dostoevskiy" id=""> Ф.М. Достоевский
+            </p>
+            <br>
+            <button>Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Поле ввода комментария</legend>
+            <p>
+                Оставьте Ваш комментарий:<br>
+                <textarea name="comment" id="" cols="30" rows="10" maxlength="1000"></textarea>
+            </p>
+            <br>
+            <button>Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Выпадающий список</legend>
+            <p>
+                Год рождения:<br>
+                <select name="birthYear" id="" size="5">
+                    <option value="1975">1975</option>
+                    <option value="1976">1976</option>
+                    <option value="1977">1977</option>
+                    <option value="1978">1978</option>
+                    <option value="1979">1979</option>
+                    <option value="1980">1980</option>
+                    <option value="1981">1981</option>
+                    <option value="1982">1982</option>
+                    <option value="1983">1983</option>
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989" selected>1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                </select>
+            </p>
+            <br>
+            <button>Отправить</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Дата рождения:</legend>
+            <p>
+                <label for="birthdate">Введите дату рождения:</label>
+                <input type="date" name="birthDate" id="birthdate">
+            </p>
+            <button>Выбрать</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>E-mail:</legend>
+            <p>
+                <label for="email">Введите ваш e-mail:</label>
+                <input required type="email" name="email" id="email" placeholder="1234@mail.ru">
+            </p>
+            <button>Выбрать</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

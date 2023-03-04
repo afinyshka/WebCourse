@@ -1,0 +1,32 @@
+[
+    {
+        "product": "apples",
+        "weightPack": 1000,
+        "goodsGroup": "Fruits",
+        "price": 150,
+        "storeNumber": 1
+    },
+    {
+        "product": "potato early",
+        "weightPack": 5000,
+        "goodsGroup": "Vegetables",
+        "price": 320,
+        "storeNumber": 2
+    },
+    {
+        "product": "bannanas",
+        "weightPack": 1000,
+        "goodsGroup": "Fruits",
+        "price": 99,
+        "storeNumber": 1
+    },
+    {
+        "product": "baunty mini",
+        "weightPack": 1000,
+        "goodsGroup": "Sweets",
+        "price": 100,
+        "storeNumber": 3
+    }
+]
+
+
