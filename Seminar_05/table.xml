@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<catalog>
+    <book>
+        <name>Камил видит руками</name>
+        <author>Сергей Самойленко</author>
+        <pagrs>146</pagrs>
+        <publicationYear>2019</publicationYear>
+        <price>345</price>
+    </book>
+    <book>
+        <name>Камил видит руками</name>
+        <author>Сергей Самойленко</author>
+        <pagrs>146</pagrs>
+        <publicationYear>2019</publicationYear>
+        <price>345</price>
+    </book>
+</catalog>
+
+<?xml version="1.0"?>
+<doRegister>
+	<email>olga@gmail.com</email>
+	<name>Ольга</name>
+	<password>1</password>
+</doRegister>
+<doRegister>
+	<email>ivan@gmail.com</email>
+	<name>Иван</name>
+	<password>222</password>
+</doRegister>

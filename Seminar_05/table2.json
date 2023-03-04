@@ -1,0 +1,18 @@
+[
+    {
+      "firstName": "Иван",
+      "lastNAme": "Иванов",
+      "age": 37,
+      "hobbies": ["рыбалка", "охота", "футбол"],
+      "marigeStatus": true,
+      "children": ["Мария", "Николай"]
+    },
+    {
+      "firstName": "Ольга",
+      "lastNAme": "Фролова",
+      "age": 20,
+      "hobbies": ["вышивание", "путешествия"],
+      "marigeStatus": false,
+      "children": null
+    }  
+]
