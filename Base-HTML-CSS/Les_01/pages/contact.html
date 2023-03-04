@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+    <script src="1.py" defer></script>
+</head>
+
+<body>
+    <h1><img src="../images/icons8-говорящий-попугай-50.png" alt="говоряящий попугай" width=35>
+        КНИЖ и Ко<img src="../images/icons8-колибри-50.png" alt="колибри" width=35></h1>
+    <p>
+        <a href="../index.html">Главная</a>
+        |
+        <a href="catalog.html">Книжный каталог</a>
+        |
+        <a href="../index.html#adresses">Адреса магазинов</a>
+        |
+        <a href="../index.html#delivery">Доставка</a>
+        |
+        <a href="#contacts">Контакты</a>
+    </p>
+    <hr>
+    <h2><a id="contacts">Контакты</a></h2>
+    <h3>Как с нами связаться</h3>
+    <p>
+        <b>Телефон:</b> +7 926 209 39 75<br>
+        <b>Адрес:</b> Москва, Кировоградская ул., 13А<br>
+        <b>Email:</b> info@knijiko.ru
+    </p>
+    <h3>Напишите нам</h3>
+    <form action="contact.html" method="post">
+        <fieldset>
+            <legend>Форма обратной связи</legend>
+            <label for="username">Ваше имя: </label><br>
+            <input type="text" name="userName" id="username" placeholder="Иван Петров"><br>
+            <label for="email">Ваш e-mail: </label><br>
+            <input type="text" name="userEmail" id="email" placeholder="1234@mail.ru"><br>
+            <label for="comment">Тема обращения: </label><br>
+            <input type="text" name="userComment" id="comment" placeholder="Отзыв"><br>
+            <label for="textarea">Текст обращения: </label><br>
+            <textarea name="userFeedback" id="textarea" cols="30" rows="10" maxlength="1000"></textarea><br>
+            <button>Отправить</button>
+        </fieldset>
+        <h3>Пройдите небольшой опрос</h3>
+        <form action="contact.html" method="post">
+            <fieldset>
+                <legend>Опрос</legend>
+                <p>
+                    Ваш любимый книжный магазин:<br>
+                    <input type="radio" name="favoutiteShop" value="chitai_gorod" id=""> Читай город<br>
+                    <input type="radio" name="favoutiteShop" value="labirinth" id=""> Лабиринт<br>
+                    <input type="radio" name="favoutiteShop" value="bookinist" id=""> Букинист
+                </p>
+                <p>
+                    Ваш любимый писатель:<br>
+                    <input type="checkbox" name="favoutiteAuthor" value="pushkin" id=""> А.С. Пушкин<br>
+                    <input type="checkbox" name="favoutiteAuthor" value="nosov" id=""> Н.Н. Носов<br>
+                    <input type="checkbox" name="favoutiteAuthor" value="tolstoi" id=""> Л.Н. Тостой<br>
+                    <input type="checkbox" name="favoutiteAuthor" value="dostoevskiy" id=""> Ф.М. Достоевский
+                </p>
+                <button>Отправить</button>
+            </fieldset>
+
+
+    </form>
+    <!-- <?php echo $_POST['textField'];?> -->
+    <!-- <php>echo $_POST['textField'];</php> -->
+
+
+
+
+
+    <hr>
+    <footer>© Все права защищены</footer>
+
+</body>
+
+</html>
